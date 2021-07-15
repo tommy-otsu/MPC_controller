@@ -2,7 +2,7 @@
 ### objective
 MPCコントローラの実装を行う．
 
-### contributor
+### - contributor
 Tomohiro Otsu
 
 ### start project date
