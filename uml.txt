@@ -1,11 +1,9 @@
-@startuml
-TwitPane->MainActivity: Intent変更
-MainActivity->MainActivity: PermissionCheck
-MainActivity->VideoEditActivity: Intent呼び出し
-VideoEditActivity->VideoEditActivity: 編集
-VideoEditActivity->ConvertActivity: Intent呼び出し
-ConvertActivity->ConvertActivity: 変換(頑張る)
-ConvertActivity-->VideoEditActivity: onActivityResult,\n結果のURI
-VideoEditActivity-->MainActivity: onActivityResult,\n結果のURI
-MainActivity-->TwitPane: onActivityResult,\n結果のURI
-@enduml
+gantt
+    title A Gantt Diagram
+    dateFormat  MM-DD
+    section 基本設計
+    基本設計を考える           :a1, 07-26, 10d
+    基本設計資料を作る     :a2, after a1  , 3d
+    section 詳細設計
+    詳細設計を考える      :a3, after a2 , 5d
+    詳細設計資料を作る      : a4, after a3, 3d
