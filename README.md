@@ -11,5 +11,5 @@ This is a tutrial of MPC_controller
   
   2021/07/15
 
-![sequence dialog](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tommy-otsu/MPC_controller/main/uml.txt)  
+![dialog](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tommy-otsu/MPC_controller/main/uml.txt)  
 https://github.com/tommy-otsu/MPC_controller/blob/main/uml.txt
