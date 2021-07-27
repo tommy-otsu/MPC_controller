@@ -1,9 +1,10 @@
-gantt
-    title A Gantt Diagram
-    dateFormat  MM-DD
-    section 基本設計
-    基本設計を考える           :a1, 07-26, 10d
-    基本設計資料を作る     :a2, after a1  , 3d
-    section 詳細設計
-    詳細設計を考える      :a3, after a2 , 5d
-    詳細設計資料を作る      : a4, after a3, 3d
+@startgantt
+[プロトタイプを設計] lasts 15 days
+[プロトタイプをテスト] lasts 10 days
+-- すべての例 --
+[Task 1 (1日)] lasts 1 day
+[T2 (5日)] lasts 5 days
+[T3 (1週間)] lasts 1 week
+[T4 (1週間と4日)] lasts 1 week and 4 days
+[T5 (2週間)] lasts 2 weeks
+@endgantt
