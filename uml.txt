@@ -1,5 +1,5 @@
 @startuml
-TwitPane->MainActivity: Intent呼び出し
+TwitPane->MainActivity: Intent変更
 MainActivity->MainActivity: PermissionCheck
 MainActivity->VideoEditActivity: Intent呼び出し
 VideoEditActivity->VideoEditActivity: 編集
