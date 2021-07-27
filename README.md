@@ -11,9 +11,5 @@ This is a tutrial of MPC_controller
   
   2021/07/15
 
-```sequence
-WEBサーバ->DBサーバ: データ挿入
-Note right of DBサーバ: DataBaseには\nユーザデータが\n格納される
-DBサーバ-->WEBサーバ: データ参照
-WEBサーバ->>DBサーバ: データ更新
-```
+![sequence dialog](http://www.plantuml.com/plantuml/proxy?src=https://gist.githubusercontent.com/takke/995d474a8ad72a724c8187cf21b1e238/raw)
+https://gist.github.com/takke/995d474a8ad72a724c8187cf21b1e238
