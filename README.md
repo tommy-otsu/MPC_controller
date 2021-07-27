@@ -12,4 +12,4 @@ This is a tutrial of MPC_controller
   2021/07/15
 
 ![sequence dialog](http://www.plantuml.com/plantuml/proxy?src=https://gist.githubusercontent.com/takke/995d474a8ad72a724c8187cf21b1e238/raw)
-https://gist.github.com/takke/995d474a8ad72a724c8187cf21b1e238
+https://github.com/tommy-otsu/MPC_controller/blob/main/uml.txt
